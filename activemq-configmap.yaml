@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: activemq-config
+data:
+  ACTIVEMQ_CONFIG_NAME: mybroker
+  ACTIVEMQ_CONFIG_DEFAULTACCOUNT: "false"
